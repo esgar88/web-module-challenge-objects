@@ -15,7 +15,7 @@ The function should:
   Example createMenuItem('tacos', 8, 'Lunch') should return {name: 'tacos', price: 8, category: 'Lunch'}
 */
 
-function createMenuItem(/*Your code here*/){
+function createMenuItem(./*Your code here*/){
     /*Your code here*/
 }
 
@@ -49,9 +49,12 @@ export const burger = {
   price: 18, 
   category: "Lunch", 
   /*Your code here*/
+  discount: function(string){
+
+  }
 }
 
-
+// export is just the testing file
 
 ///////////////Reviews (MVP)///////////////////
 const reviews = [
